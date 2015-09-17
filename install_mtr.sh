@@ -13,7 +13,7 @@ if [ -e "$MTR" ]; then
 	exit 220
 fi
 
-# Check if the Xcode command line toools are installed
+# Check if the Xcode command line tools are installed
 make 2> /dev/null
 MAKE_EXISTS=$(echo $?)
 
